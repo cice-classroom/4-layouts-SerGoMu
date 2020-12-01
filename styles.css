@@ -2,7 +2,6 @@ html,
 body {
 	margin: 0;
 	padding: 0;
-	border: 1px solid darkgray;
 }
 
 .box {
@@ -11,35 +10,79 @@ body {
 
 .content {
 	display: flex;
-	flex-direction: column;
+	flex-direction: column; /*toda la página*/
 	width: 100%;
 	height: 100%;
 }
 
 .header {
-	flex: 5%;
 	display: flex;
 	flex-direction: row;
+	flex: 1;
 }
 
 .header-aside {
-	flex: 0.5;
+	flex: 15%;
+	border: 1px solid red;
 }
 
 .header-main {
-	flex: 2;
+	flex: 70%;
 }
 
-.main {
+.wrapper {
 	display: flex;
-	flex-direction: column;
-	flex: 90%;
-}
-
-.span-1 {
-	flex: 16%;
+	flex-direction: row;
+	flex: 20;
 }
 
 .footer {
-	flex: 5%;
+	flex: 1;
+}
+
+.aside {
+	/*dentro de wrapper*/
+	flex: 15%;
+}
+
+.main {
+	/*dentro de wrapper*/
+	display: flex;
+	flex-direction: column;
+	flex: 70%;
+}
+
+.sub-1 {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.sub-1-2 {
+	display: flex;
+	flex: 10vh;
+	flex-direction: row;
+	border: 1px solid blue;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.sub-1-2-up-down {
+	flex: 10vh;
+	justify-content: ;
+	align-items: ;
+}
+
+.sub-1-3 {
+	background-color: grey;
+	width: 50px;
+	height: 50px;
+}
+
+.regular-text {
+	text-align: center;
+}
+
+.text-header {
+	text-align: center;
 }
