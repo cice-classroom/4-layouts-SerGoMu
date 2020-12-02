@@ -86,3 +86,44 @@ body {
 .text-header {
 	text-align: center;
 }
+
+.header-aside-button {
+	background-color: rgb(184, 182, 182);
+	border: none;
+	color: black;
+	border-radius: 100%;
+	padding: 10px 15px;
+	margin: 5px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+}
+
+.header-main-text {
+	background-color: rgb(184, 182, 182);
+	border: none;
+	color: black;
+	border-radius: 50px;
+	padding: 10px 70px;
+	margin: 5px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	float: left;
+	font-size: 10px;
+}
+
+.header-main-button {
+	background-color: rgb(184, 182, 182);
+	border: none;
+	color: black;
+	border-radius: 50px;
+	padding: 10px 40px;
+	margin: 5px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	float: right;
+	font-size: 10px;
+}
